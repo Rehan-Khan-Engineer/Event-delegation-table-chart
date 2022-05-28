@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  color: #494949;
+  background-color: #444;
+
+  font-family: sans-serif;
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background-color: whitesmoke;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+  padding: 2rem;
+
+  border-radius: 0.8rem;
+}
+
+#color-table {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+#color-table th {
+  text-align: center;
+
+  font-weight: bold;
+
+  padding: 10px;
+}
+
+#color-table td {
+  width: 150px;
+  padding: 12px;
+
+  white-space: nowrap;
+
+  text-align: center;
+  vertical-align: bottom;
+
+  border-radius: 0.6rem;
+}
+
+#color-table .nw {
+  background: #999;
+}
+
+#color-table .n {
+  background: #03f;
+  color: #fff;
+}
+
+#color-table .ne {
+  background: #ff6;
+}
+
+#color-table .w {
+  background: #ff0;
+}
+
+#color-table .c {
+  background: #60c;
+  color: #fff;
+}
+
+#color-table .e {
+  background: #09f;
+  color: #fff;
+}
+
+#color-table .sw {
+  background: #963;
+  color: #fff;
+}
+
+#color-table .s {
+  background: #f60;
+  color: #fff;
+}
+
+#color-table .se {
+  background: #0c3;
+  color: #fff;
+}
+
+#color-table .highlight {
+  background: #ff0062;
+}
